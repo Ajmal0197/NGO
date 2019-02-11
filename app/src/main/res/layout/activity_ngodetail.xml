@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NGODetailActivity"
+        android:animateLayoutChanges="true"
+        android:id="@+id/linearLayout"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        android:elevation="90dp"
+        android:layout_margin="7dp"
+        app:contentPadding="5dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/post_Image1"
+            android:src="@mipmap/ic_launcher_round"/>
+
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#278726">
+
+               <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name  "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                />
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_Title1"
+                android:text="@string/app_name"
+                android:textSize="16sp"
+                android:textColor="#ffff"
+                android:maxLines="2"
+                android:paddingBottom="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"/>
+
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address  "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                />
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_Location1"
+                android:text="@string/app_name"
+                android:textSize="16sp"
+                android:paddingBottom="10dp"
+                android:textColor="#ffff"
+                android:maxLines="4"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"/>
+
+
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About  "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                />
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_About1"
+                android:text="@string/app_name"
+                android:textSize="16sp"
+                android:textColor="#ffff"
+                android:maxLines="15"
+                android:paddingBottom="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"/>
+
+
+
+                <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone  "
+                android:id="@+id/btnCall"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                />
+
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_Phone1"
+                android:text="@string/app_name"
+                android:textSize="16sp"
+                android:textColor="#ffff"
+                android:paddingBottom="10dp"
+
+                android:maxLines="2"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"/>
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Website  "
+                android:id="@+id/btnWeb"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                />
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_Website1"
+                android:text="@string/app_name"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:maxLines="2"
+                android:autoLink="web"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"/>
+
+        </LinearLayout>
+    </ScrollView>
+  </LinearLayout>
+

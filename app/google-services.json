@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "577386457302",
+    "firebase_url": "https://fir-auth-ead60.firebaseio.com",
+    "project_id": "fir-auth-ead60",
+    "storage_bucket": "fir-auth-ead60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577386457302:android:769eeeda0cd037e3",
+        "android_client_info": {
+          "package_name": "hasan.app.com.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577386457302-9nluo8vv8vtprsrfpeqv6eot6vfgf5tr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hasan.app.com.firebaseauth",
+            "certificate_hash": "160a8d2f25858dd5ff537c0c42260c17a6be1cf2"
+          }
+        },
+        {
+          "client_id": "577386457302-a5jbd63rbvlfoobqsluqnkas7rv8agov.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "577386457302-a5jbd63rbvlfoobqsluqnkas7rv8agov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa0ufciVMyyQl1Soe8y2qd8onzphOua7A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577386457302-a5jbd63rbvlfoobqsluqnkas7rv8agov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577386457302:android:c0b9af2acd20c88d",
+        "android_client_info": {
+          "package_name": "hasan.app.com.ngodemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577386457302-bh8ra58f45bv3gnohak05gmgvbfla214.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hasan.app.com.ngodemo",
+            "certificate_hash": "160a8d2f25858dd5ff537c0c42260c17a6be1cf2"
+          }
+        },
+        {
+          "client_id": "577386457302-a5jbd63rbvlfoobqsluqnkas7rv8agov.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "577386457302-a5jbd63rbvlfoobqsluqnkas7rv8agov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa0ufciVMyyQl1Soe8y2qd8onzphOua7A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577386457302-a5jbd63rbvlfoobqsluqnkas7rv8agov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dhome"
+            android:icon="@drawable/dprofile"
+            android:title="Home" />
+        <item
+            android:id="@+id/dprofile"
+            android:icon="@drawable/dprofile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/devents"
+            android:icon="@drawable/devents"
+            android:title="Events" />
+        <item
+            android:id="@+id/dself_volunteer"
+            android:icon="@drawable/dselfvol"
+            android:title="Self Volunteer" />
+        <item
+            android:id="@+id/ddonor"
+            android:icon="@drawable/ddonor"
+            android:title="Donor" />
+        <item
+            android:id="@+id/dquery"
+            android:icon="@drawable/dquery"
+            android:title="Query" />
+        <item
+            android:id="@+id/dfeedback"
+            android:icon="@drawable/dfeedback"
+            android:title="Feedback" />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy" />
+            <item
+                android:id="@+id/dabout_us"
+                android:icon="@drawable/daboutapp"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
